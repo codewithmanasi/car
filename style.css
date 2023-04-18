@@ -15,40 +15,39 @@ a{
     text-decoration: none;
     margin-right: 1rem;
     font-weight: 600;
-
 }
 
-.model-s{
-    background-image: url(./images/model-s.jpg);
+.model-y{
+    background-image: url(./images/model-y.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
 
     display: flex;
-    flex-direction :column;
-    align-items : center;
-    justify-content:space-between;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.upper{
+    margin: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.upper{
-        margin: 4rem;
-        display: flex;
-        flex-direction:column ;
-        align-items: center;
-}
 span{
-   font-size: 2rem !important;
+    font-size: 2rem;
 }
 
 .lower{
     margin-bottom: 4rem;
 }
 
-.btn1{
+.btn{
     margin: 1rem;
     padding: 1rem;
     width: 20rem;
-    background-color: black*;
-    color: white;
+    background-color: black;
+    color:white;
     border: 2rem;
 }
